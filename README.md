@@ -1,4 +1,4 @@
-# Projeto em Vue.js  [![License](https://img.shields.io/badge/license-MIT-green)]
+# Projeto em Vue.js  ![License](https://img.shields.io/badge/license-MIT-green) ![Documentação](https://img.shields.io/badge/docs-desenvolvimento-yellow) ![](https://img.shields.io/badge/projeto-desenvolvimento-red)
 
 ## Alguns módulos e pacotes utilizados
 
