@@ -1,4 +1,4 @@
-# Projeto em Vue.js  ![License](https://img.shields.io/badge/license-MIT-green) ![Documentação](https://img.shields.io/badge/docs-desenvolvimento-yellow) ![](https://img.shields.io/badge/projeto-desenvolvimento-red) ![](https://img.shields.io/github/repo-size/Allan96/Projeto-Vue) ![GitHub last commit](https://img.shields.io/github/last-commit/Allan96/Projeto-Vue)
+# Projeto em Vue.js  ![License](https://img.shields.io/badge/license-MIT-green) ![](https://img.shields.io/github/repo-size/Allan96/Projeto-Vue) ![GitHub last commit](https://img.shields.io/github/last-commit/Allan96/Projeto-Vue)
 
 ## Alguns módulos e pacotes utilizados
 
