@@ -10,6 +10,9 @@
 ## API
 [API REST em PHP](https://github.com/Allan96/API-PHP)
 
+## Comandos para startar ou buildar o projeto
+npm run dev
+npm run build
 
 
 > Todos os direitos reservados, é totalmente proibido qualquer cópia total ou parcial desse projeto.
