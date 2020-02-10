@@ -11,7 +11,7 @@
 [API REST em PHP](https://github.com/Allan96/API-PHP)
 
 ## Comandos para startar ou buildar o projeto
-npm run dev
+npm run dev <br>
 npm run build
 
 
