@@ -3,15 +3,15 @@
   <div class="container">
       <div class="row d-flex align-content-center justify-content-center">
         <div class="col-5">
-        <form>
+        <form  @submit.prevent="login()">
           <h1 class="text-center mb-4">
             ACESSAR A PLATAFORMA
           </h1>
           <div class="form-group">
-            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Seu e-mail">
+            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Seu e-mail" v-model="email">
           </div>
           <div class="form-group">
-            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Sua senha">
+            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Sua senha" v-model="senha">
           </div>
 
           <button type="submit" class="btn btn-primary w-100 mt-3">Continuar</button>
@@ -26,7 +26,20 @@
 <script>
     export default {
         data() {
-            return {}
+            return {
+                email: "",
+                senha: ""
+            }
+        },
+        methods: {
+            login() {
+                this.$http.post('http://localhost:3333/login', {
+                        email: this.email,
+                        password: this.senha,
+                    })
+                    .then((res) => console.log(res.body))
+                    .catch((error) => console.log(error))
+            }
         }
     }
 </script>
