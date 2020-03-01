@@ -14,7 +14,7 @@
             <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Sua senha">
           </div>
 
-          <button type="submit" class="btn btn-primary w-100">Continuar</button>
+          <button type="submit" class="btn btn-primary w-100 mt-3">Continuar</button>
           </form>
           </div>
 
@@ -33,7 +33,9 @@
 
 <style lang="scss" scoped>
     header {
-        background: #1f2a50;
+        background: url(https://app.cashforce.com.br/templates/CashFront/assets/img/bg-login.png);
+        background-size: cover;
+        background-position: center;
         .row {
             height: 100vh;
             form {
