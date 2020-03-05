@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router';
 
-import Login from '../componentes/login/Login.vue';
-import DashboardLayout from '../layouts/Dashboard.vue';
+import Login from '../componentes/login/Login';
+import DashboardLayout from '../layouts/Dashboard';
 import Notas from '../pages/painel/notas/Index';
 import Dashboard from '../pages/painel/dashboard/Index';
 
