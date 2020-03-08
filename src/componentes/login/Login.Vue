@@ -24,6 +24,7 @@
 </template>
 
 <script>
+    import router from '../../router/index.js';
     export default {
         data() {
             return {
@@ -37,7 +38,14 @@
                         email: this.email,
                         password: this.senha,
                     })
-                    .then((res) => console.log(res.body))
+                    .then(function(res) {
+                        const {
+                            id
+                        } = res.body;
+                        if (id) {
+                            router.push('/dashboard');
+                        }
+                    })
                     .catch((error) => console.log(error))
             }
         }
